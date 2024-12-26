@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(to right,black,grey);
+}
+.bg1 {
+  border: solid white; color: white;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.4);
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 0 8px white;
+  animation: anj 3s ease;
+}
+@keyframes anj {
+  0% {
+    margin-top: -200px;
+    opacity: 0;
+  } 100% {
+    margin-top: 20px;
+    opacity: 1;
+  }
+}
